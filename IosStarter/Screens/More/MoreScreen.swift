@@ -8,9 +8,13 @@ struct MoreScreen: View {
     NavigationStack {
       VStack {
         List {
-          HStack {
-            Image(systemName: "person.fill")
-            Text("Account")
+          NavigationLink {
+            AccountView()
+          } label: {
+            HStack {
+              Image(systemName: "person.fill")
+              Text("Account")
+            }
           }
           HStack {
             Image(systemName: "gearshape.fill")

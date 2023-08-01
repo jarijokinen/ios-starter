@@ -3,8 +3,8 @@
 A starter app for native iOS development.
 
 * iOS 17
-* Swift 5.9
-* SwiftUI
+* Swift + SwiftUI
+* Firebase Authentication
 
 ## License
 
