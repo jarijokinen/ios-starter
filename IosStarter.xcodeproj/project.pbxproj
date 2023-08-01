@@ -12,6 +12,10 @@
 		490218E82A78EB590030F5B7 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490218E72A78EB590030F5B7 /* MainScreen.swift */; };
 		490218EA2A78ED320030F5B7 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490218E92A78ED320030F5B7 /* HomeScreen.swift */; };
 		490218EC2A78ED5D0030F5B7 /* MoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490218EB2A78ED5D0030F5B7 /* MoreScreen.swift */; };
+		49F75E0F2A79020800D170BD /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F75E0E2A79020800D170BD /* ListView.swift */; };
+		49F75E112A79027A00D170BD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F75E102A79027A00D170BD /* Post.swift */; };
+		49F75E132A79035600D170BD /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F75E122A79035600D170BD /* ListViewModel.swift */; };
+		49F75E152A7911EB00D170BD /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F75E142A7911EB00D170BD /* ApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		490218E72A78EB590030F5B7 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		490218E92A78ED320030F5B7 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		490218EB2A78ED5D0030F5B7 /* MoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreScreen.swift; sourceTree = "<group>"; };
+		49F75E0E2A79020800D170BD /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		49F75E102A79027A00D170BD /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		49F75E122A79035600D170BD /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		49F75E142A7911EB00D170BD /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,7 @@
 		490218E12A78EA0C0030F5B7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				49F75E102A79027A00D170BD /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -90,6 +99,7 @@
 		490218E52A78EA2D0030F5B7 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				49F75E142A7911EB00D170BD /* ApiService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -149,6 +159,7 @@
 		490218F22A78EEF00030F5B7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				49F75E0E2A79020800D170BD /* ListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +167,7 @@
 		490218F32A78EEF80030F5B7 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				49F75E122A79035600D170BD /* ListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -245,7 +257,11 @@
 			files = (
 				490218EA2A78ED320030F5B7 /* HomeScreen.swift in Sources */,
 				490218D32A78E8DE0030F5B7 /* IosStarterApp.swift in Sources */,
+				49F75E132A79035600D170BD /* ListViewModel.swift in Sources */,
+				49F75E0F2A79020800D170BD /* ListView.swift in Sources */,
+				49F75E112A79027A00D170BD /* Post.swift in Sources */,
 				490218E82A78EB590030F5B7 /* MainScreen.swift in Sources */,
+				49F75E152A7911EB00D170BD /* ApiService.swift in Sources */,
 				490218EC2A78ED5D0030F5B7 /* MoreScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
